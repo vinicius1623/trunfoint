@@ -1,19 +1,27 @@
 body {
-    font-family: 'Roboto Mono', monospace;
-    min-height: 854px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    padding-bottom: 20vh;
-}
-
-.container {
-    text-align: center;
-    padding: 20px;
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
     align-items: center;
-}
+  }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      background: rgb(255,198,0);
+      width: 400px;
+      height: 600px;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 20px;
+      box-shadow: 0 0 10px black;
+      
+  
+  
+    }
 
 .page-title {
     color: #ffffff;
